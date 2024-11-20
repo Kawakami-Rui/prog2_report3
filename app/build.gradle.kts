@@ -36,8 +36,8 @@ java {
 }
 
 application {
-    // Define the main class for the application.
-    mainClass = "org.example.App"
+    // メインクラスの完全修飾名を指定
+    mainClass.set("jp.ac.uryukyu.ie.e245706.App")
 }
 
 tasks.named<Test>("test") {
