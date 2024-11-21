@@ -37,7 +37,7 @@ java {
 
 application {
     // メインクラスの完全修飾名を指定
-    mainClass.set("jp.ac.uryukyu.ie.e245706.App")
+    mainClass.set("Main")
 }
 
 tasks.named<Test>("test") {
@@ -47,6 +47,6 @@ tasks.named<Test>("test") {
 
 tasks.withType<Jar> {
     manifest {
-        attributes["Main-Class"] = "jp.ac.uryukyu.ie.e245706.App"
+        attributes["Main-Class"] = "Main"
     }
 }
