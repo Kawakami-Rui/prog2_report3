@@ -54,28 +54,28 @@ public class Enemy {
             System.out.printf("モンスター%sは倒れた。\n", name);
         }
     }
-    /*＊
+    /**
      * 名前を取得するメソッド
-     * @return 名前(String型)
+     * @return name 名前
      */
     public String getName(){
         return name;
     }
-    /*＊
+    /**
      * 現在のHPを取得するメソッド
-     * @return 現在のHP(int型)
+     * @return hitPoint 現在のHP
      */
     public int getHitpoint(){
         return hitPoint;
     }
-    /*＊
+    /**
      * 攻撃力を取得するメソッド
-     * @return 攻撃力(int型)
+     * @return attack 攻撃力
      */
     public int getAttack(){
         return attack;
     }
-    /*＊
+    /**
      * 生死判定を取得するメソッド
      * @return tureなら死、falseなら生
      */
@@ -83,30 +83,30 @@ public class Enemy {
         return dead;
     }
 
-    /*＊
+    /**
      * 名前を設定するメソッド
-     * @param 名前(String型)
+     * @param name 名前(String型)
      */
     public void setName(String name){
         this.name = name;
     }
-    /*＊
+    /**
      * 現在のHPを設定するメソッド
      * @param hitpoint 現在のHP(int型)
      */
     public void setHitpoint(int hitPoint){
         this.hitPoint = hitPoint;
     }
-    /*＊
+    /**
      * 攻撃力を設定するメソッド
      * @param attack 攻撃力(int型)
      */
     public void setAttack(int attack){
         this.attack = attack;
     }
-    /*＊
+    /**
      * 生死判定を設定するメソッド
-     * @param dead tureなら死、falseなら生
+     * @param dead ture=死、false=生
      */
     public void setDead(boolean dead){
         this.dead = dead;
