@@ -92,7 +92,7 @@ public class Enemy {
     }
     /**
      * 現在のHPを設定するメソッド
-     * @param hitpoint 現在のHP(int型)
+     * @param hitPoint 現在のHP(int型)
      */
     public void setHitpoint(int hitPoint){
         this.hitPoint = hitPoint;
