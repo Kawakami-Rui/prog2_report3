@@ -18,7 +18,6 @@ public class Hero extends LivingThing{
      */
     public Hero (String name, int maximumHP, int attack) {
         super(name, maximumHP, attack);
-        System.out.printf("%sのHPは%d。攻撃力は%dです。\n", name, maximumHP, attack);
     }
 
     /**
